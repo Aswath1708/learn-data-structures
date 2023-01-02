@@ -13,5 +13,16 @@ public class PrintNumbersWithInput {
         // Initialize code for loop
 
         // Write Loop with condition and update logic
+        {
+       Scanner sc=new Scanner(System.in);
+       int n=sc.nextInt();
+       int i=1;
+       while(i<=n)
+       {
+           System.out.print(i+" ");
+           i++;
+       }
+    }
+}
     }
 }
